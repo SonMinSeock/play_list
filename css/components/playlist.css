@@ -1,0 +1,29 @@
+.main__play-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 65%;
+}
+.main__play-list__row {
+  display: flex;
+}
+
+.play-list__album__img {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.play-list__album__descript {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.album__descript__sub__title {
+  font-size: 12px;
+  opacity: 0.5;
+}

@@ -1,0 +1,65 @@
+.main {
+  margin-top: 20px;
+  height: 90%;
+}
+.main__header {
+  display: flex;
+}
+
+.main__header__album__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.album__title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.album__writer {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main__settings-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 25px;
+}
+
+.settings-bar__play__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0px 2px 3px black;
+}
+.settings-bar__play__btn i {
+  margin-right: 10px;
+}
+.settings-bar__like__btn,
+.settings-bar__plus__btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  box-shadow: 0px 2px 3px black;
+}

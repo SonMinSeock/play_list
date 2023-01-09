@@ -1,0 +1,25 @@
+@import "reset.css";
+
+/* components */
+@import "css/components/header.css";
+@import "css/components/settings-bar.css";
+@import "css/components/playlist.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00c6ac;
+  height: 100vh;
+}
+
+section {
+  background-color: #ffffff;
+  width: 45%;
+  height: 70%;
+  padding: 20px 10px;
+}
